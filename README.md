@@ -5,6 +5,8 @@ Input Dataset:
 All datasets are available in online. We also added our all processed datasets in matrix format in the Data folder. 
 
 Instructions for framework execution:
+Open the Code folder.
+
 Run the file scimpute.R  with  raw dataset for computing imputed matrix. 
 Then take Imputed data matrix as input data and run the file MRMRE1.R to fetch top 100 features with respect to their feature scores. 
 After that run the file shrinkage_100genes_cluster_SS_Final_Version.R  with the input data matrix  100 × #cells . 
